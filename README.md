@@ -1,47 +1,27 @@
-# Contact Form - Frontend Mentor Solution
+# Responsive Contact Form
 
-This is a solution to the [Contact Form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/contact-form--R-JQZ39Ib). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+A clean, modern, and fully responsive contact form built with web standards. This project features custom UI elements, a responsive layout, and robust client-side validation using Vanilla JavaScript.
 
-## Table of Contents
+## 🚀 Live Demo
 
-- [Overview](#overview)
-  - [The Challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My Process](#my-process)
-  - [Built With](#built-with)
-  - [What I Learned](#what-i-learned)
-- [Author](#author)
+[View Live Project Here](https://your-username.github.io/your-repo-name/)
+*(Note: Replace the link above with your actual GitHub Pages URL)*
 
-## Overview
+## ✨ Features
 
-### The Challenge
+- **Fully Responsive Design:** Adapts seamlessly to mobile, tablet, and desktop screens using CSS Grid and Flexbox.
+- **Client-Side Validation:** Custom Vanilla JavaScript logic to validate required fields, email formatting, and checkbox consent before submission.
+- **Interactive UI:** Custom-styled radio buttons and clear error/success states for better User Experience (UX).
+- **Success Toast Notification:** A dynamic pop-up message appears upon successful form submission.
+- **Accessibility & Focus States:** Keyboard-friendly navigation with clear focus rings on all interactive elements.
 
-Users should be able to:
+## 📸 Preview
 
-- Complete the form and see a success toast message upon successful submission.
-- Receive form validation messages if:
-  - A required field has been missed.
-  - The email address is not formatted correctly.
-- View the optimal layout for the interface depending on their device's screen size.
-- See hover and focus states for all interactive elements on the page.
+![](./assets/images/screenshot.png) 
+*(Note: You can add a screenshot of your project in your repository and update this image path, or delete this line if you don't have one)*
 
-### Screenshot
+## 🛠️ Technologies Used
 
-![](./assets/images/screenshot-desktop.png)
-*(Note: Replace the path above with your actual screenshot path)*
-
-### Links
-
-- **Solution URL:** [Add your GitHub Repo URL here]
-- **Live Site URL:** [Add your GitHub Pages URL here]
-
-## My Process
-
-### Built With
-
-- Semantic HTML5 markup
-- CSS custom properties
-- CSS Grid & Flexbox
-- Mobile-first workflow
-- Vanilla JavaScript (for validation & DOM manipulation)
+- **HTML5:** Semantic markup for structure and accessibility.
+- **CSS3:** Custom properties (variables), Flexbox, and CSS Grid for layout management.
+- **JavaScript (Vanilla):** DOM manipulation, event handling, and form validation logic.
