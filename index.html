@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Public META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- /Public META -->
+
+    <!-- Title -->
+    <title> Form </title>
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" />
+    <!-- /Title -->
+
+    <!-- SEO META -->
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta property="og:title" content="Desserts" />
+    <meta property="og:description" content="Desserts" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta content="logo" property="og:image">
+    <meta content="" property="og:image:secure_url">
+    <meta property="og:image:type" content="" />
+    <meta property="og:image:width" content="" />
+    <meta property="og:image:height" content="" />
+    <meta content="#da2222" name="theme-color">
+    <!-- /SEO META -->
+
+    <!-- Bootstrap Core Css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- Web Fonts Css -->
+    <link type="text/css" rel="stylesheet" href="./assets/fonts/OFL.txt">
+
+    <!-- Template Css -->
+    <link rel="stylesheet" href="css/template.css">
+
+    <!-- Mobile Css -->
+    <link rel="stylesheet" media="only screen and (max-width: 640px)" href="css/mobile.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-container">
+            <h2 class="head">Contact Us</h2>
+
+            <!-- پیغام موفقیت (به بالای فرم منتقل شد) -->
+            <div id="success-message" class="success-toast hidden">
+                <div class="toast-header">
+                    <img src="./assets/images/icon-success-check.svg" alt="">
+                    <strong>Message Sent!</strong>
+                </div>
+                <p>Thanks for completing the form. We'll be in touch soon!</p>
+            </div>
+
+            <form class="form" novalidate>
+
+                <div class="inputbig">
+                    <div class="input-box">
+                        <label for="firstName" class="title">First Name <span class="required">*</span></label>
+                        <input class="folder" type="text" id="firstName" name="firstName" required>
+                        <span class="error-text" id="firstName-error">This field is required</span>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastName" class="title">Last Name <span class="required">*</span></label>
+                        <input class="folder" type="text" id="lastName" name="lastName" required>
+                        <span class="error-text" id="lastName-error">This field is required</span>
+                    </div>
+                </div>
+
+                <div class="input-box full-width">
+                    <label for="email" class="title">Email Address <span class="required">*</span></label>
+                    <input class="folder" type="email" id="email" name="email" required>
+                    <span class="error-text" id="email-error">Please enter a valid email address</span>
+                </div>
+
+                <div class="input-box full-width">
+                    <label class="title">Query Type <span class="required">*</span></label>
+                    <div class="radio-grid">
+                        <label class="radio-box">
+                            <input type="radio" name="queryType" value="general" required>
+                            <span>General Enquiry</span>
+                        </label>
+                        <label class="radio-box">
+                            <input type="radio" name="queryType" value="support">
+                            <span>Support Request</span>
+                        </label>
+                    </div>
+                    <span class="error-text" id="queryType-error">Please select a query type</span>
+                </div>
+
+                <div class="input-box full-width">
+                    <label for="message" class="title">Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <span class="error-text" id="message-error">This field is required</span>
+                </div>
+
+                <div class="checkbox-group full-width">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">I consent to being contacted by the team <span
+                            class="required">*</span></label>
+                    <span class="error-text" id="consent-error" style="display:block;">To submit this form, please
+                        consent to being contacted</span>
+                </div>
+
+                <button type="submit" class="submit-btn full-width">Submit</button>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Jquery Main -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/site.js"></script>
+
+</body>
+
+</html>
